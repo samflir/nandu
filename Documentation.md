@@ -23,7 +23,7 @@ To flip a bit of the MAR, write a hexadecimal string of digits after a dot.
 Example: `.01a`
 ## Flip bits of memory
 To flip a bit of memory, write a hexadecimal string of digits. There's no syntax for this because it'll be by far the most common operation probably.
-Example: `89AB`
+Example: `89ab`
 ## Loop
 Loops use square brackets.
 Example: `[1[2]3]`
@@ -39,7 +39,7 @@ Subroutines end with a semicolon.
 Example: `Flip-bit: .00_;`
 Subroutines do not run without being called, so they can safely be placed at the top of code. Subroutines can be defined within subroutines, which have only that subroutine as their scope.
 ## Subroutine exit
-Subroutine exit is etiher implied by a semicolon, or optionally an underscore for early return.
+Subroutine exit is either implied by a semicolon, or optionally an underscore for early return.
 ## Input
 Input is handled by the ? command, which XORs a character of input to the current memory address.
 ## Output
